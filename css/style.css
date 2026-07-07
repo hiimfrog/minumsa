@@ -699,6 +699,11 @@ body {
         border-right: none;
     }
 } */
+@media (max-width: 1300px) {
+    .club_box_img {
+        display: none;
+    }
+}
 
 /* section_3 tablet ver 1023 */
 @media (max-width: 1023px) {
@@ -878,18 +883,37 @@ body {
     width: 100%;
     border-radius: 20px;
     display: block;
+
 }
 
 
 .shop_img li {
     position: relative;
     width: calc((100% - (26px * 3)) / 4);
+
 }
 
 .shop_title {
     transition: all 0.3s;
 }
 
+.shop_book {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.shop_book img {
+    transition: all 0.3s;
+}
+
+.shop_book:hover img {
+    transform: scale(1.06);
+}
+
+/* .shop_img li:hover img{
+     transform: scale(1.06);
+} */
 .shop_img li:hover .shop_title {
     color: #4F7C63;
 }
@@ -969,6 +993,10 @@ body {
     /* min-width: 300px; */
 }
 
+.shop_banner a:hover img {
+    filter:contrast(1.12);
+}
+
 .shop_banner img {
     width: 100%;
     height: auto;
@@ -984,7 +1012,7 @@ body {
 }
 
 /* shop_banner mobile ver 767px */
-@media(max-width:767px) {}
+/* @media(max-width:767px) {} */
 
 /* section_5 (공지사항, 유튜브) === */
 .section_5 {
