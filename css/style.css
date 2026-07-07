@@ -992,7 +992,9 @@ body {
     flex: 1 1 calc(50% - 10px);
     /* min-width: 300px; */
 }
-
+.shop_banner img{
+    transition: all 0.3s;
+}
 .shop_banner a:hover img {
     filter:contrast(1.12);
 }
