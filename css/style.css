@@ -157,14 +157,13 @@ body {
         border-top: 1px solid #e2e2e2;
         display: none;
         position: absolute;
-        top: 100%; /* 헤더의 바로 아래에 위치 */
-        right: 0;
-        width: 40%; /* 1023px 이하부터 계속 전체 너비 유지 */
-        background-color: #ffffffe1; /* 서브 배경 #fff */
-        padding: 30px 20px; /* 상하 30px, 좌우 20px 여백 (디자인에 맞게 조절하세요) */
+        top: 100%; 
+        width: 40%; 
+        background-color: #ffffffe1; 
+        padding: 30px 20px; 
         box-sizing: border-box;
-        z-index: 999; /* 다른 요소들 위로 올라오도록 설정 */
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* (선택) 그림자를 주면 더 자연스럽습니다 */
+        z-index: 999; 
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
     }
 
     /* .more:hover .sub-menu {
