@@ -1,3 +1,11 @@
+// tablet more
+$(document).ready(function() {
+            $('.more > a').click(function(e) {
+                e.preventDefault(); // a 태그 클릭 시 화면이 위로 튕기는 기본 동작 방지
+                $('.more').toggleClass('active'); // 클릭할 때마다 .more에 active 클래스 추가/삭제
+            });
+        });
+
 // banner
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
@@ -64,3 +72,5 @@ AOS.init({
     once: true     // 한번만 실행, 계속하려면 false로 변경
     
 });
+
+
